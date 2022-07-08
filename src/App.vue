@@ -1,7 +1,10 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
 
 const link = ref('')
+const input = ref<HTMLInputElement | null>(null)
+
+onMounted(() => input.value?.focus())
 </script>
 
 <template>
@@ -13,6 +16,7 @@ const link = ref('')
         type="text"
         placeholder="Input yout link"
         v-model="link"
+        ref="input"
       />
       <p class="mt-4 text-center">
         <a class="text-lg underline" :href="link" target="_blank">open {{ link }}</a>
