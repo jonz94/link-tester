@@ -18,7 +18,7 @@ onMounted(() => input.value?.focus())
         v-model="link"
         ref="input"
       />
-      <p class="mt-4 max-w-[100vw] space-x-2 break-all text-center text-lg">
+      <p v-if="link" class="mt-4 max-w-[100vw] space-x-2 break-all text-center text-lg">
         <span>open</span>
         <a class="underline" :href="link" target="_blank">{{ link }}</a>
       </p>
