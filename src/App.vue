@@ -5,6 +5,10 @@ const link = ref('')
 const input = ref<HTMLInputElement | null>(null)
 
 onMounted(() => input.value?.focus())
+
+function updateLink(value: string) {
+  link.value = value
+}
 </script>
 
 <template>
@@ -15,7 +19,9 @@ onMounted(() => input.value?.focus())
         class="input input-bordered w-full sm:min-w-[28rem]"
         type="text"
         placeholder="Input your link, example: https://link-tester.jonz94.dev"
-        v-model="link"
+        :value="link"
+        v-on:keyup="(event) => updateLink((event.target as HTMLInputElement).value)"
+        v-on:compositionend="(event) => updateLink(event.data)"
         ref="input"
       />
       <p v-if="link" class="mt-4 max-w-[100vw] space-x-2 break-all text-center text-lg">
