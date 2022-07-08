@@ -4,5 +4,9 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [require('daisyui')],
+  daisyui: {
+    logs: false,
+    themes: ['light', 'dark'],
+  },
 }
