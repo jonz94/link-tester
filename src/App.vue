@@ -14,7 +14,7 @@ onMounted(() => input.value?.focus())
       <input
         class="block w-full rounded-md border-transparent bg-gray-100 focus:border-gray-500 focus:bg-white focus:ring-0 sm:min-w-[28rem]"
         type="text"
-        placeholder="Input yout link, example: https://link-tester.jonz94.dev"
+        placeholder="Input your link, example: https://link-tester.jonz94.dev"
         v-model="link"
         ref="input"
       />
