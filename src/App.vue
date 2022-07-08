@@ -8,7 +8,7 @@ onMounted(() => input.value?.focus())
 </script>
 
 <template>
-  <div class="container flex min-h-screen flex-col items-center">
+  <div class="flex min-h-screen flex-col items-center">
     <h1 class="my-8 text-2xl font-black">Link Tester</h1>
     <div>
       <input
