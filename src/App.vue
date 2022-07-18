@@ -26,7 +26,7 @@ function updateLink(value: string) {
         <div>
           <input
             class="input input-bordered w-full rounded-lg sm:min-w-[28rem]"
-            type="text"
+            type="url"
             placeholder="Input your link, example: https://link-tester.jonz94.dev"
             :value="link"
             v-on:keyup="(event) => updateLink((event.target as HTMLInputElement).value)"
