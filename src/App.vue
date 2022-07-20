@@ -10,10 +10,6 @@ onMounted(() => input.value?.focus())
 function toggleDrawer() {
   isDrawerOpened.value = !isDrawerOpened.value
 }
-
-function updateLink(value: string) {
-  link.value = value
-}
 </script>
 
 <template>
@@ -28,9 +24,7 @@ function updateLink(value: string) {
             class="input input-bordered w-full rounded-lg sm:min-w-[28rem]"
             type="url"
             placeholder="Input your link, example: https://link-tester.jonz94.dev"
-            :value="link"
-            v-on:keyup="(event) => updateLink((event.target as HTMLInputElement).value)"
-            v-on:compositionend="(event) => updateLink(event.data)"
+            v-model="link"
             ref="input"
           />
           <p v-if="link" class="mt-4 max-w-[100vw] space-x-2 break-all text-center text-lg">
@@ -134,7 +128,7 @@ function updateLink(value: string) {
 
     <div class="fixed top-4 right-4 z-20">
       <label
-        class="btn swap btn-ghost btn-circle swap-rotate h-10 min-h-0 w-10"
+        class="swap-rotate btn swap btn-ghost btn-circle h-10 min-h-0 w-10"
         :class="isDrawerOpened ? 'swap-active' : ''"
         @click="toggleDrawer"
       >
