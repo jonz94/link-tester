@@ -5,7 +5,7 @@ specifiers:
   '@types/prettier': ^2.7.1
   '@vitejs/plugin-vue': ^3.1.2
   autoprefixer: ^10.4.12
-  daisyui: ^2.20.0
+  daisyui: ^2.31.0
   postcss: ^8.4.14
   prettier: ^2.7.1
   prettier-plugin-organize-imports: ^3.0.0
@@ -18,7 +18,7 @@ specifiers:
   vue-tsc: ^0.39.0
 
 dependencies:
-  daisyui: 2.20.0_a6mljhniyxtc3mumexneezwd7i
+  daisyui: 2.31.0_a6mljhniyxtc3mumexneezwd7i
   vue: 3.2.37
 
 devDependencies:
@@ -375,8 +375,8 @@ packages:
   /csstype/2.6.20:
     resolution: {integrity: sha512-/WwNkdXfckNgw6S5R125rrW8ez139lBHWouiBvX8dfMFtcn6V81REDqnH7+CRpRipfYlyU1CmOnOxrmGcFOjeA==}
 
-  /daisyui/2.20.0_a6mljhniyxtc3mumexneezwd7i:
-    resolution: {integrity: sha512-97xFBWQOXV/JCVRrGI5xranElKMmXIajDxojTQ1qoYwcWlkfFE7hY4D/NyHVIzlQb+B4xbiXhVPJM7EleRAY8g==}
+  /daisyui/2.31.0_a6mljhniyxtc3mumexneezwd7i:
+    resolution: {integrity: sha512-qepRXgQPLNcJ8ZPZy+dUvsC7mRWvMLRcVMe85/wZA60Tnhm/bkidhOzdllL8aAk2JX+W/xlIsTJ8NZFpPm+eyw==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
