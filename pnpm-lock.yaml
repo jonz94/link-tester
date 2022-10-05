@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@tailwindcss/typography': ^0.5.7
-  '@types/prettier': ^2.6.3
+  '@types/prettier': ^2.7.1
   '@vitejs/plugin-vue': ^3.0.1
   autoprefixer: ^10.4.7
   daisyui: ^2.20.0
@@ -23,7 +23,7 @@ dependencies:
 
 devDependencies:
   '@tailwindcss/typography': 0.5.7_tailwindcss@3.1.6
-  '@types/prettier': 2.6.3
+  '@types/prettier': 2.7.1
   '@vitejs/plugin-vue': 3.0.1_vite@3.0.2+vue@3.2.37
   autoprefixer: 10.4.7_postcss@8.4.14
   postcss: 8.4.14
@@ -101,8 +101,8 @@ packages:
     resolution: {integrity: sha512-HzNRZtp4eepNitP+BD6k2L6DROIDG4Q0fm4x+dwfsr6LGmROENnok75VGw40628xf+iR24WeMFcHuuBDUAzzsQ==}
     dev: true
 
-  /@types/prettier/2.6.3:
-    resolution: {integrity: sha512-ymZk3LEC/fsut+/Q5qejp6R9O1rMxz3XaRHDV6kX8MrGAhOSPqVARbDi+EZvInBpw+BnCX3TD240byVkOfQsHg==}
+  /@types/prettier/2.7.1:
+    resolution: {integrity: sha512-ri0UmynRRvZiiUJdiz38MmIblKK+oH30MztdBVR95dv/Ubw6neWSb8u1XpRb72L4qsZOhz+L+z9JD40SJmfWow==}
     dev: true
 
   /@vitejs/plugin-vue/3.0.1_vite@3.0.2+vue@3.2.37:
